@@ -1,0 +1,20 @@
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: 'DancingScriptRegular';
+    font-size: 400%;
+}
+a, a:hover, a:visited {
+    color: #665544;
+}
+
+i {
+    color: darkgreen;
+}
+p {
+    font-family: 'DancingScriptRegular';
+    font-weight: normal; 
+    font-style: normal;
+    font-size: 200%;
+}
