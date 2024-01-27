@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: darkgray;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Photos-images-space-wallpaper-HD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'LiberationMonoRegular';
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+#content {
+  overflow: auto;
+}
+
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+#feature {
+  background-color: indianred;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+
+.column1 {
+ background-color: darkseagreen;
+}
+.column2 {
+  background-color: palevioletred;
+}
+.column3 {
+  margin-right: 0%;
+  background-color: cadetblue;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav, #footer {
+  padding: 0.5em 0;
+  background-color: darkslategrey;
+}
+
+
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+  
+}
