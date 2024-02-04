@@ -5,9 +5,6 @@ h1 {
     font-family: 'DancingScriptRegular';
     font-size: 400%;
 }
-a, a:hover, a:visited {
-    color: #665544;
-}
 
 i {
     color: darkgreen;
