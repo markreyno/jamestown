@@ -1,3 +1,15 @@
+
+
+@font-face {
+  font-family: 'DancingScriptRegular';
+  src: url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3/DancingScriptRegular.ttf') format('truetype');
+}
+
+h1, h2, p {
+    padding: 12px;
+    line-height: 2em;
+}
+
 h1 {
     text-align: center;
     color: blue;
@@ -7,6 +19,7 @@ h1 {
 a, a:hover, a:visited {
     color: #665544;
 }
+
 i {
     color: darkgreen;
 }
@@ -16,7 +29,7 @@ p {
     font-style: normal;
     font-size: 200%;
 }
-body {
+ body {
    font-family: Helvetica, Arial, sans-serif;
    color: #665544;
    padding: 0 15% 0 15%;
