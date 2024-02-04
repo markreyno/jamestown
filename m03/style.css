@@ -1,13 +1,12 @@
-
 h1 {
     text-align: center;
     color: blue;
     font-family: 'DancingScriptRegular';
     font-size: 400%;
 }
-
 a, a:hover, a:visited {
-				color: #665544;}
+    color: #665544;
+}
 i {
     color: darkgreen;
 }
@@ -20,5 +19,5 @@ p {
 body {
    font-family: Helvetica, Arial, sans-serif;
    color: #665544;
-   padding: 0 15% 0 15%;
+   padding: 0.15% 0.15%;
  }
