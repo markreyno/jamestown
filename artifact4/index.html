@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <form method="post" action="form-handler.html" onsubmit="return checkForm(this);">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          First Name
+        </td>
+        <td>
+          <input type="text" name="firstname" id="firstname">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Last Name
+        </td>
+        <td>
+          <input type="text" name="lastname">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Email
+        </td>
+        <td>
+          <input type="text" name="email">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Password
+        </td>
+        <td>
+          <input type="password" name="password">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Phone
+        </td>
+        <td>
+          <input type="text" name="phone">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Username
+        </td>
+        <td>
+          <input type="text" name="username">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Password
+        </td>
+        <td>
+          <input type="password" name="password">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Address
+        </td>
+        <td>
+          <input type="text" name="address">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          City
+        </td>
+        <td>
+          <input type="text" name="city">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          State
+        </td>
+        <td>
+          <select name="state">
+            <option value="000 select="selected">Select</option>
+            </option>
+            <option value="001">
+              Alabama
+            </option>
+            <option value="002">
+              Alaska
+            </option>
+            <option value="003">
+              Arizona
+            </option>
+            <option value="004">
+              Arkansas
+            </option>
+            <option value="005">
+              California
+            </option>
+            <option value="006">
+              Colorado
+            </option>
+            <option value="007">
+              Connecticut
+            </option>
+            <option value="008">
+              Delaware
+            </option>
+            <option value="009">
+              Florida
+            </option>
+            <option value="010">
+              Georgia
+            </option>
+            <option value="011">
+              Hawaii
+            </option>
+            <option value="012">
+              Idaho
+            </option>
+            <option value="013">
+              Illinois
+            </option>
+            <option value="014">
+              Indiana
+            </option>
+            <option value="015">
+               Iowa
+            </option>
+            <option value="016">
+               Kanas
+            </option>
+            <option value="017">
+               Kentucky
+            </option>
+            <option value="018">
+               Lousiana
+            </option>
+            <option value="019">
+               Maine
+            </option> 
+             <option value="020">
+              Maryland
+             </option>
+            <option value="021">
+              Massachusetts
+             </option>
+              <option value="022">
+               Michigan
+             </option>
+              <option value="023">
+               Minnesota
+            </option>
+              <option value="024">
+               Missisippi
+            </option>
+            <option value="025">
+              Missouri
+            </option>
+              <option value="026">
+              Montana
+            </option>
+              <option value="027">
+              Nebraska
+            </option>
+              <option value="028">
+              Nevada
+             </option>
+              <option value="029">
+              New Hampshire
+            </option>
+            <option value="030">
+              New Jersey
+            </option>
+            <option value="031">
+              New Mexico
+            </option>
+            <option value="032">
+              New York
+            </option>
+            <option value="033">
+              North Carolina
+            </option>
+            <option value="034">
+              North Dakota
+            </option>
+            <option value="035">
+              Ohio
+            </option>
+            <option value="036">
+              Oklahoma
+            </option>
+            <option value="037">
+              Oregon
+            </option>
+            <option value="038">
+              Pennsylvania
+            </option>
+            <option value="039">
+              Rhode Island
+            </option>
+            <option value="040">
+              South Carolina
+            </option>
+            <option value="041">
+              South Dakota
+            </option>
+            <option value="042">
+              Tennessee
+            </option>
+            <option value="043">
+              Texas
+            </option>
+            <option value="044">
+              Utah
+            </option>
+            <option value="045">
+              Vermont
+            </option>
+            <option value="046">
+              Virginia
+            </option>
+            <option value="047">
+              Washington
+            </option>
+            <option value="048">
+              West Virginia
+            </option>
+            <option value="049">
+              Wisconsin
+            </option>
+            <option value="050">
+              Wyoming
+            </option>
+            <option value="051">
+              Washington DC
+            </option>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Country
+        </td>
+        <td>
+          <select name="country">
+          <option value="000" select="selected">Select</option>
+          <option value="001">
+             Canada
+          </option>
+          <option value="002">
+            Mexico
+          </option>
+          <option value="003">
+            USA
+           </option>
+          <option value="004">
+             China
+          </option>
+          <option value="005">
+             Russia
+          </option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" value="Submit">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div id="errors"></div>
+        </td>
+      </tr>
+
+
+
+      
+    </tbody>
+  </table>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
