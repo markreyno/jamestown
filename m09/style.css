@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 200px;
+  background: beige;
+}
+.dot {
+  height: 8px; width: 8px;
+  border-radius: 4px; /* rounds corners */
+  background: blue;
+  position: absolute;
+}
+
+h3 {
+ position: absolute;
+ top: 10px;
+
+  
+}
+
+#button {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
