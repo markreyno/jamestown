@@ -12,7 +12,5 @@ html {
   
 body {
  background-image: url("background.jpg");
-  background-position: center;
-  background-size: 2000px;
-  background-repeat: no-repeat;
+
 }
