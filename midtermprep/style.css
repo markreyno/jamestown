@@ -2,15 +2,14 @@ html {
   height: 100%;
   width: 100%;
 }
-
+body {
+ background-image: url("background.jpg");
+ background-size:cover;
+}
 #topmenu li{
   display: inline;
 }
 
 #menu {
-  background-color: white;
   
-body {
- background-image: url("background.jpg");
- background-size:cover;
-}
+  
