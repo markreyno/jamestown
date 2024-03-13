@@ -67,13 +67,15 @@ function checkForm(form)
    
   }
 
-  if(errors.length > 0 ) {
-    var msg = "ERRORS:\n\n";
-    for (var i=0; i<errors.length; i++) {
-      msg += errors[i] + "\n";
-    }
-    alert(msg);
-    return false;
+  if (errors.length > 0) {
+      var msg = "<ul>";
+      for (var i = 0; i < errors.length; i++) {
+          msg += "<li>" + errors[i] + "</li>";
+      }
+      msg += "</ul>";
+      errorDiv.innerHTML = msg;
+      errorDiv.style.display = "block";
+      return false;
   }
   return true;
 }
