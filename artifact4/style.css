@@ -3,6 +3,8 @@ html {
   width: 100%;
 }
 
-#errors {
-color:red;
+.error {
+    color: red;
+    position: absolute;
+    padding-left: 300px;
 }
